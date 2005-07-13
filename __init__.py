@@ -14,7 +14,7 @@ the appropriate options to ``use_setuptools()``.
 This file can also be run as a script to install or upgrade setuptools.
 """
 
-DEFAULT_VERSION = "0.5a11"
+DEFAULT_VERSION = "0.5a12"
 DEFAULT_URL     = "http://www.python.org/packages/source/s/setuptools/"
 
 import sys, os
@@ -157,8 +157,8 @@ def main(argv, version=DEFAULT_VERSION):
             from setuptools.command.easy_install import main
             main(argv)
         else:
-            print "Setuptools successfully installed or upgraded."
-
+            print "Setuptools version",version,"or greater has been installed."
+            print '(Run "ez_setup.py -U setuptools" to reinstall or upgrade.)'
 if __name__=='__main__':
     main(sys.argv[1:])
 
