@@ -36,8 +36,6 @@ md5_data = {
     'setuptools-0.6a7-py2.4.egg': 'c6d62dab4461f71aed943caea89e6f20',
     'setuptools-0.6a8-py2.3.egg': '2f18eaaa3f544f5543ead4a68f3b2e1a',
     'setuptools-0.6a8-py2.4.egg': '799018f2894f14c9f8bcb2b34e69b391',
-    'setuptools-0.6a8dev_r0-py2.3.egg': '93d9647d8fcc7735a223cf3bac04f8a8',
-    'setuptools-0.6a8dev_r41395-py2.3.egg': '2e8d4d33d38781e4dc280338a4ceb699',
 }
 
 import sys, os
